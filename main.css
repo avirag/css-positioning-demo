@@ -71,17 +71,22 @@ img {
   top: 25px;
 }
 
+.services:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.services {
+  max-height: 150px;
+  overflow: hidden;
+}
+
 .content {
   padding: 10px;
   background: #ccc;
   clear: left;
   margin-top: 50px;
-}
-
-.services:after {
-  content: '';
-  display: block;
-  clear: both;
 }
 
 section, aside {
@@ -129,6 +134,7 @@ nav {
   top: 0;
   left: 0;
   width: 100%;
+  z-index: 1;
 }
 
 nav ul:after {
