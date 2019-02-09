@@ -39,6 +39,10 @@ img {
   width: 100px;
 }
 
+.boxes {
+  height: 110px;
+}
+
 .service h2, .service p {
   color: #999;
   margin: 10px 0;
@@ -52,4 +56,17 @@ img {
   margin: 1%;
   padding: 1%;
   height: 120px;
+}
+
+.content {
+  padding: 10px;
+  background: #ccc;
+  clear: left;
+  margin-top: 50px;
+}
+
+.services:after {
+  content: '';
+  display: block;
+  clear: both;
 }
